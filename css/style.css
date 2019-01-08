@@ -1,0 +1,96 @@
+/* Estilo gerais */
+* {
+	color: darkslateblue;
+}
+
+body{
+	font-family: roboto, helvetica, sans-serif;
+	background-color: #1beabd;
+	text-align: center;
+}
+
+img{
+	color: aliceblue;
+	width: 80px;
+	height: 80px;
+
+}
+
+#cep{
+	width:300px;
+	height:50px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	color: darkslateblue;
+	position: relative;
+	display: inline-flex;
+	outline: none;
+	-webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+  position: relative;
+
+}
+
+
+#consultar{
+	width:170px;
+	height:50px;
+	margin-top: 10px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	background-color: darkslateblue;
+	color: white;
+	margin-left: 10px;
+	position: relative;
+	display: inline-flex;
+	border: none;
+	-webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+}
+
+#consultar:hover{
+	width:170px;
+	height:50px;
+	font-size: 30px;
+	margin-top: 10px;
+	background-color: aliceblue;
+	font-family: 'Bree Serif', serif;
+	color: darkslateblue;
+	margin-left: 10px;
+	position: relative;
+	display: inline-flex;
+	-webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+}
+
+.resposta {
+	margin-top: 25px;
+	font-size: 20px;
+	font-family: 'Bree Serif', serif;
+	color: darkslateblue;
+
+}
+
+h2 {
+	font-size: 50px;
+	font-family: 'Bree Serif', serif;
+	color: darkslateblue;
+
+}
+
+footer {
+	font-size: 15px;
+	margin-top: 100px;
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+}
